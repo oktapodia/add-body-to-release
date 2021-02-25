@@ -1,14 +1,14 @@
 {
-	"name": "release-with-changelog",
+	"name": "add-body-to-release",
 	"version": "1.0.0",
-	"description": "Create a GitHub relase with changelog for every tag you push",
+	"description": "Add body to release",
 	"main": "distribution/index.js",
 	"scripts": {
 		"build": "ncc build index.js -o distribution",
 		"test": "xo && npm run jest",
-		"jest": "GITHUB_SERVER_URL='https://github.com' GITHUB_REPOSITORY='fregante/release-with-changelog' jest"
+		"jest": "GITHUB_SERVER_URL='https://github.com' GITHUB_REPOSITORY='oktapodia/add-body-to-release' jest"
 	},
-	"repository": "fregante/release-with-changelog",
+	"repository": "oktapodia/add-body-to-release",
 	"keywords": [
 		"github",
 		"actions",
@@ -17,7 +17,7 @@
 		"releases",
 		"changelog"
 	],
-	"author": "Laxman Damera",
+	"author": "BRAMILLE Sebastien",
 	"license": "MIT",
 	"dependencies": {
 		"@actions/core": "^1.2.6",
